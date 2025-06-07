@@ -1,0 +1,41 @@
+# 🐍 Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# 📦 Virtual environment
+venv/
+env/
+
+# 📄 Environment files
+.env
+.env.*
+
+# 🗂 OS and editor-specific files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 📜 Logs and coverage
+*.log
+*.sqlite3
+coverage/
+htmlcov/
+*.cover
+*.pyc
+
+# 📦 Dependency lock (optional)
+poetry.lock
+Pipfile.lock
+
+# 🧪 Test artifacts
+.tox/
+.pytest_cache/
+
+# 🗃 Bytecode and packaging
+build/
+dist/
+*.egg-info/
